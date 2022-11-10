@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+.contenedor-papa{
+    background-color: coral;
+    display: flex;
+    height: 150px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.hijo{
+    width:100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: solid black .5px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    background-color: grey;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    
+}
+a{
+    text-decoration: none;
+    margin-left: 15px;
+    color: beige;
+}
+a:hover{
+    color: aqua;
+}
